@@ -1,0 +1,16 @@
+
+  
+ main img {
+    display: block;
+    width: 100%;
+    
+  }
+
+  main {
+    width: 40em;
+    margin-inline: auto;
+  }
+
+  body {
+    background-color: darkgrey;
+  }

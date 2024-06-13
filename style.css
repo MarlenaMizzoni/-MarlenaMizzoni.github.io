@@ -40,18 +40,22 @@ h1 {
   
 }
 
-
-/* h1, p {
-  animation-name: fadeInUpBig;
-  animation-duration: .5s;
-  animation-iteration-count: 1;
-  animation-delay: 2s;
-  animation-fill-mode: backwards;
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
-p {
-  animation-delay: 3s;
-} */
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
+}
+
+
 
 
 

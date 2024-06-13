@@ -5,10 +5,7 @@
 
 
 
-/* Diagnostic */
-/* * {
-  outline: 1px solid peachpuff;
-} */
+
 
 /* Style Tile with css variables */
 :root {
@@ -29,7 +26,6 @@
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
   font-family: var(--font1);
 }
 
@@ -76,9 +72,9 @@ nav a {
 aside img { 
   width: 150%;
   max-width: 100%;
-  height: 120vh;
+  height: 140vh;
   object-fit: cover;
-  margin-top: 0;
+ 
 }
 
 
@@ -104,9 +100,8 @@ p {
   
   p span {
     float: none;
-    font-size: 1.5em;
-    
-  }
+    font-size: 1em;
+    }
   
 }
 
@@ -129,6 +124,10 @@ p {
     background: var(--highlight); 
     color: var(--highlight);
 }
+
+
+
+
 
 main:hover {
   color: var(--red2);

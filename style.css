@@ -32,7 +32,10 @@ main {
 
 
 h1 {
-  font-size: 4em;
+  font-size: 5em;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
   
 }
 
@@ -59,7 +62,6 @@ article {
   /* cross axis   */
   align-items: center;
   
-  padding: 1em;
 }
 
 

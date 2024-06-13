@@ -72,14 +72,13 @@ nav a {
   color: var(--red1);
 }
 
-/* aside image */
+
 aside img { 
   width: 150%;
   max-width: 100%;
-
-  /* full height     */
-  height: 100vh;
+  height: 120vh;
   object-fit: cover;
+  margin-top: 0;
 }
 
 

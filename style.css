@@ -68,6 +68,8 @@ article {
 nav a {
   font-family: var(--font1);
   color: var(--red1);
+  font-size: 2em;
+ padding: 2rem;
 }
 
 

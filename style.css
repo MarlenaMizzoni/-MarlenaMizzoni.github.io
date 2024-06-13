@@ -41,7 +41,7 @@ h1 {
 }
 
 
-h1, p {
+/* h1, p {
   animation-name: fadeInUpBig;
   animation-duration: .5s;
   animation-iteration-count: 1;
@@ -51,7 +51,9 @@ h1, p {
 
 p {
   animation-delay: 3s;
-}
+} */
+
+
 
 
 /* Article */
@@ -72,6 +74,8 @@ nav a {
   color: var(--highlight);
   font-size: 2em;
  padding: 2rem;
+ transition: background 1s 3s, font-size 3s;
+  font-size: 2em;
 }
 
 
